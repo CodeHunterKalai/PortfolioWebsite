@@ -86,6 +86,7 @@
   .home-container {
     flex-direction: column-reverse;
     align-items: center;
+    margin-top : 300px;
     margin: 80px 20px;
     text-align: center;
   }
