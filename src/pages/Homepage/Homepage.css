@@ -1,0 +1,287 @@
+
+
+.home-container{
+     display: flex;
+     margin: 150px 100px ;
+     justify-content: space-around;
+}
+.home-content{
+     margin-left: -100px;
+}
+
+.resume-download-link{
+  text-decoration:none;
+}
+
+.download-btn:hover .resume-download-link{
+  color:white;
+}
+
+.get-btn{
+  width:150px;
+}
+
+.download-resume-link{
+     text-decoration:none;
+}
+
+.download-btn:hover .download-resume-link{
+     color: white;
+     
+}
+.download-btn{
+ width:200px;
+}
+
+.my-career{
+     margin-left: -18px;
+     margin-top: 10px;
+}
+.home-content h1{
+     font-size: 55px;
+     font-weight: bold;
+}
+
+.social-icons{
+     font-size: 20px;
+     margin-top: 5px;
+     padding: 15px 10px;
+     background-color: #f5fafe;
+     border-radius: 50%;
+     width: 50px;
+}
+.social-icons:hover{
+     background-color:white;
+     cursor: pointer;
+     transition:.4s;
+     transform: translateY(-5px);
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.profile-img{
+     margin-right: -80px;
+}
+
+.my-profile{
+     border: 2px solid gray;
+     padding: 15px;
+     border-radius: 50%;
+}
+.get-btn{
+     text-align: center;
+}
+.right-arrow{
+     opacity: 0;
+}
+.get-btn:hover .right-arrow{
+     opacity: 1;
+     transition:.4s;
+     transform: translateX(3px);
+}
+.social-icons-group .social-anchor-tag{
+     color: black;
+}
+
+/* Extra Small Devices (Phones, <576px) */
+@media (max-width: 575.98px) {
+  .home-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 80px 20px;
+    text-align: center;
+  }
+
+  .home-content {
+    margin-left: 0;
+  }
+
+  .home-content h1 {
+    font-size: 32px;
+  }
+
+  .my-career {
+    margin-left: 0;
+    font-size: 15px;
+  }
+
+  .super-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .get-btn,
+  .download-btn {
+    width: 80%;
+  }
+
+  .download-btn{
+     margin-right: 22px;
+     margin-top: 8px;
+  }
+
+  .profile-img {
+     margin: auto 0;
+     margin-top: -40px;
+     margin-bottom: 20px;
+
+  }
+
+  .my-profile {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+  }
+
+  .social-icons {
+    width: 50px;
+    height: 45px;
+    padding: 10px;
+    font-size: 22px;
+  }
+}
+
+/* Small Devices (Portrait tablets, 576px - 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 40px;
+    text-align: center;
+  }
+
+  .home-content {
+    margin-left: 0;
+  }
+
+  .home-content h1 {
+    font-size: 38px;
+  }
+
+  .my-career {
+    margin-left: 0;
+    font-size: 15px;
+  }
+
+  .super-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .get-btn,
+  .download-btn {
+    width: 70%;
+  }
+
+  .profile-img {
+    margin-top: 40px;
+  }
+
+  .my-profile {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+  }
+}
+
+
+/* Medium Devices (Landscape tablets, 768px - 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+   .home-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 80px 20px;
+    text-align: center;
+  }
+
+  .home-content {
+    margin-left: 0;
+  }
+
+  .home-content h1 {
+    font-size: 32px;
+  }
+
+  .my-career {
+    margin-left: 0;
+    font-size: 20px;
+  }
+
+  .super-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .get-btn,
+  .download-btn {
+    width: 80%;
+    height: 40px;
+    padding: 30px;
+  }
+  .get-btn{
+     margin-right: -15px;
+     margin-top: 5px;
+  }
+
+  .download-btn{
+     margin-left: -3px;
+     margin-top: 8px;
+  }
+
+  .profile-img {
+     margin: auto 0;
+     margin-top: -40px;
+     margin-bottom: 20px;
+
+  }
+
+  .my-profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+
+  .social-icons {
+    width: 60px;
+    height: 58px;
+    padding: 12px;
+    font-size: 28px;
+    margin-right: 20px;
+  }
+}
+
+/* Large Devices (Laptops, 992px - 1199.98px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .home-container {
+    margin: 120px 80px;
+  }
+
+  .home-content h1 {
+    font-size: 50px;
+  }
+
+  .my-profile {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+}
+
+/* Extra Large Devices (Desktops, ≥1200px) */
+@media (min-width: 1200px) {
+  .home-container {
+    margin: 150px 100px;
+  }
+
+  .my-profile {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+  }
+}
