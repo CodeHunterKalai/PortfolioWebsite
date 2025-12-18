@@ -30,7 +30,7 @@ export const About = () => {
              <li>Create responsive and user-friendly designs</li>
              <li>Develop full-stack applications (front-end + back-end)</li>
              <li>Work with databases and manage data effectively</li>
-             <li>Javascript | React.js | Bootstrap | Node.js  | MongoDB | </li>
+             <li>Javascript | React.js | Bootstrap | Git | MongoDB | </li>
              <li>Java | Spring Boot | MySQL | Rest API |Vercel </li>
           </ul>
          </div>

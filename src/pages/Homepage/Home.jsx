@@ -1,6 +1,6 @@
 import logo from './Profile.jpg'
 import './Homepage.css'
-import LogeshResume from './LOGESH_RESUME_1.pdf'   // ✅ Final correct import
+import KalaiResume from './kalai CV Resume.pdf'   // ✅ Final correct import
 
 
 export const Home = () => {
@@ -9,9 +9,9 @@ export const Home = () => {
 
   return (
     <>
-      <div className="home-container" id="home">
+      <div className="home-container" id="home" >
 
-        <div className="home-content">
+        <div className="home-content" >
           <h3 className="hi text-secondary mb-3" id="go-to-top">
             Hi👋 Buddy's I'm
           </h3>
@@ -40,8 +40,8 @@ export const Home = () => {
 
             <button className="download-btn btn btn-outline-primary p-2 ms-4 ">
               <a
-                href={LogeshResume}
-                download="LogeshResume"
+                href={KalaiResume}
+                download="KalaiResume"
                 className="download-resume-link"
               >
                 Download Resume

@@ -14,7 +14,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="container">
+      <div className="navbar-container">
 
         {/* Header */}
         <header className="header-section">

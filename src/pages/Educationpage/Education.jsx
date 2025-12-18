@@ -20,7 +20,7 @@ return (
                <span>University : </span>
                 Madurai Kamaraj University, Madurai. <br />
           </h6>
-          <p>Percentage : 75%</p>
+          <p>Percentage : 62.43%</p>
      </div>
      <div className="edu-stickers">
           <span className='edu-sticker-1'>🎓</span>
@@ -34,9 +34,9 @@ return (
           <h5><b>HSC (Higher Secondary Certificate)</b></h5> 
           <h6>
                <span>School : </span>
-               Rm Ps Ramiah Nadar Higher Secondary School, Athipatti.| 2020 - 2022 <br />
+               Rm Ps Ramiah Nadar Higher Secondary School, Athipatti.| 2021 - 2022 <br />
           </h6>
-               <p>Percentage : 70%</p>
+               <p>Percentage : 72.33%</p>
           </div>
         
           <div className="edu-stickers">
@@ -53,7 +53,7 @@ return (
                <span>School : </span>
                 Rm Ps Ramiah Nadar Higher Secondary School, Athipatti.| 2019 - 2020 <br />
           </h6>
-               <p>Percentage : 81%</p>
+               <p>Percentage : 60.80%</p>
           </div>
           <div className="edu-stickers">
                <span className='edu-sticker'>🏫</span>
