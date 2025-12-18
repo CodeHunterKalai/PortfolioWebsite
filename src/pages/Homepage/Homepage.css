@@ -86,12 +86,7 @@
   .home-container {
     flex-direction: column-reverse;
     align-items: center;
-<<<<<<< HEAD
     /* margin: 80px 20px; */
-=======
-    margin-top : 300px;
-    margin: 80px 20px;
->>>>>>> e3b845947711eee2cdb11ba2ba7664517ddc2e87
     text-align: center;
   }
 
