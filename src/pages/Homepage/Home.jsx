@@ -1,6 +1,6 @@
 import logo from './Profile.jpg'
 import './Homepage.css'
-import KalaiResume from './kalai CV Resume.pdf'   // ✅ Final correct import
+import KalaiResume from './kalai_CV_Resume.pdf'   // ✅ Final correct import
 
 
 export const Home = () => {
