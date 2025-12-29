@@ -7,6 +7,7 @@ import Education from './pages/Educationpage/Education';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contacts/Contact';
 import Footer from './pages/Footer/Footer';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import './index.css'
 
 
@@ -30,6 +31,8 @@ function App() {
     <div id="contact"><Contact /></div>
 
     <div id="contact"><Footer/></div>
+
+    <SpeedInsights />
     
     </>
   )
